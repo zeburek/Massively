@@ -11,6 +11,7 @@ into the {body} of the default.hbs template --}}
 
         <header class="major">
             <span class="date">{{date format="MMMM D, YYYY"}}</span>
+            <span class="reading-time">{{reading_time minute=(t "Only a minute") minutes=(t "Takes % minutes")}}</span>
             <h1>{{title}}</h1>
             {{#if custom_excerpt}}
                 <p class="content">{{custom_excerpt}}</p>

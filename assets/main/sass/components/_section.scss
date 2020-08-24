@@ -95,6 +95,12 @@
 				margin: 0 0 _size(element-margin) 0;
 			}
 		}
+
+
+        > .reading-time {
+            font-size: 0.85em;
+            font-style: italic;
+        }
 	}
 
 	@mixin color-section($p: null) {
